@@ -1,0 +1,15 @@
+@media (max-width: 1080px) {
+    ul{
+        gap: 0.2rem;
+        font-size: var(--font-small);
+    }
+}
+@media (max-width:900px){
+    ul{
+        font-size: var(--font-xsmall);
+        gap:10px
+    }
+    .mobile-links ul:nth-child(1){
+    height: 1rem;
+}
+}
